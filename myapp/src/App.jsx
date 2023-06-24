@@ -8,6 +8,7 @@ import CounterComponent from './components/CounterComponent';
 import ParentComp from './components/ParentComp';
 import MyColorsComp from './components/MyColorsComp';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/font-awesome/css/font-awesome.min.css'
 import Component1 from './components/Component1';
 import Component2 from './components/Component2';
 import CounterIncrement from './components/CounterIncrement';
@@ -22,6 +23,10 @@ import PageNotFound from './components/PageNotFound';
 import {Card,Button} from 'react-bootstrap';
 import Nav from './components/Nav';
 import FavColor from './components/FavColor';
+import UsseStateComps from './components/UsseStateComps';
+import Dashboard from './CRUD/Dashboard';
+import Add from './CRUD/Add';
+import Edit from './CRUD/Edit'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -37,6 +42,10 @@ function App() {
       <Card.Body>
       <Routes>
         <Route path='UserForm' element={<UserForm/>}/>
+        <Route path='dashboard' element={<Dashboard/>}/>
+        <Route path='add' element={<Add/>}/>
+        <Route path='edit/:id' element={<Edit/>}/>
+        <Route path='usestate' element={<UsseStateComps/>}/>
             <Route path='toggleImg' element={<ToggleImg/>}>
             <Route path='ref' element={<RefComp/>}/> </Route> 
             <Route path='favcolor' element={<FavColor color="Blue"/>}/>

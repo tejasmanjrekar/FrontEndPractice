@@ -14,6 +14,12 @@ const NavComp = () => {
       <Link to="favcolor" className="btn btn-primary btn-sm">
         FavColor
       </Link>{" "}
+      <Link to="useState" className="btn btn-primary btn-sm">
+        UseState
+      </Link>{" "}
+      <Link to="dashboard" className="btn btn-primary btn-sm">
+        CRUD
+      </Link>{" "}
     </div>
   );
 };

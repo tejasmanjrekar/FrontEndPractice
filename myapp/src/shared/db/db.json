@@ -1,0 +1,35 @@
+{
+  "product": [
+    {
+      "id": 102,
+      "name": "LaptopDell",
+      "price": 55000,
+      "company": "Dell"
+    },
+    {
+      "id": 103,
+      "name": "Laptop asda",
+      "price": 95000,
+      "company": "Asus"
+    },
+    {
+      "id": 104,
+      "name": "Laptop",
+      "price": 55000,
+      "company": "Lenevo"
+    },
+    {
+      "id": 105,
+      "name": "Laptop",
+      "price": 145000,
+      "company": "Apple"
+    },
+    {
+      "id": "101",
+      "name": "Keyboard",
+      "price": "2300",
+      "company": "Razor",
+      "": "d"
+    }
+  ]
+}
